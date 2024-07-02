@@ -233,3 +233,34 @@ img {
   padding: 7px 24px;
   border-radius: 10px;
 }
+
+/* ----------------------------------- Main Background -------------------------- */
+.main_bg {
+  background: url("/assets/img/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+/* ------------------------ Section Two ------------------ */
+
+.section_two {
+  padding-top: 12rem;
+}
+
+.section_two_content h1 {
+  padding-bottom: 5rem;
+}
+
+.section_two_main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 13rem;
+}
+
+.s_t_process{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
