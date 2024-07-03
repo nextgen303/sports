@@ -612,7 +612,7 @@ img {
 
 .newsletter h6 {
   margin-bottom: 1rem;
-  text-align: right;
+  text-align: left;
   font-size: var(--fs-6);
   font-weight: bold;
   color: var(--text-color);
@@ -828,6 +828,7 @@ img {
 
   .footer_content {
     flex-direction: column;
+    gap: 2.5rem;
   }
 
   .footer_content div {
