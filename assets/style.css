@@ -127,12 +127,12 @@ img {
     gap: 1rem;
     padding-top: 4rem;
     padding-left: 1rem;
-    padding-right: 6rem;
+    padding-right: 7rem;
     padding-bottom: 4rem;
     background: var(--bg);
     position: absolute;
     top: 58px;
-    right: -6rem;
+    right: -2.7rem;
     border-radius: 5px;
   }
 
@@ -614,13 +614,25 @@ img {
   margin-bottom: 1rem;
   text-align: right;
   font-size: var(--fs-6);
-  font-weight: 700;
-  color: #c8c8c8;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 /*-------------- responsive -------- */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
+  :root {
+    --fs-1: 96px;
+    --fs-2: 60px;
+    --fs-3: 36px;
+    --fs-4: 32px;
+    --fs-5: 28px;
+  }
+
+  .header .navbar .nav_links {
+    margin-right: 4%;
+  }
+
   .hero_content .hero_right .right_img {
     position: static;
   }
@@ -651,11 +663,12 @@ img {
   }
 
   .button {
-    font-size: var(--fs-7);
+    font-size: var(--fs-6);
   }
 
   .hero_content .hero_left {
     width: 100%;
+    margin-top: 3rem;
   }
 
   .badge {
@@ -663,6 +676,15 @@ img {
     text-align: center;
     bottom: 3rem;
     transform: translateX(-50%);
+  }
+
+  .section_two_main {
+    padding: 0 5rem;
+  }
+
+  .timer_content_bottom {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -673,6 +695,27 @@ img {
 
   .button {
     text-align: center;
+    font-size: var(--fs-7);
+  }
+
+  .section_two {
+    padding-top: 6rem;
+  }
+
+  .section_two_content h1 {
+    padding-bottom: 3rem;
+  }
+
+  .s_3_card {
+    gap: 3rem;
+  }
+
+  .s_t_process .s_t_process_right p {
+    width: 98%;
+  }
+
+  .s_f_box h6 {
+    font-size: var(--fs-7);
   }
 
   .newsletter h6 {
@@ -766,6 +809,7 @@ img {
   .timer_content_bottom {
     flex-direction: column;
     width: 100%;
+    gap: 2rem;
   }
 
   .timer_btn {
@@ -804,6 +848,7 @@ img {
 
   .s_seven_content p {
     width: 100%;
+    font-size: var(--fs-7);
   }
 
   .main_footer_content {

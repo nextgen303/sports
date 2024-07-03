@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         navLinks.style.display = 'flex';
         navLinks.classList.add('active');
-        gsap.fromTo(navLinks, { height: 0 }, { duration: 0.5, height: 'auto' });
+        gsap.fromTo(navLinks, { height: 0}, { duration: 0.5, height: 'auto' });
         gsap.fromTo(links, { opacity: 0, y: -10 }, { duration: 0.5, opacity: 1, y: 0, stagger: 0.1 });
         menuIcon.innerHTML = '&#10005;'; // Cross icon
       }
